@@ -1,0 +1,21 @@
+// import variables and mixins
+
+@import "variables";
+@import "mixins";
+
+@import "mixins";
+
+// import vendor sass files (bootstrap).
+
+@import "vendor/bootstrap";
+
+// app level style
+
+// main sass file,
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+//import app sub-module styles. any new scss parts should be imported here
+
+@import "../views/landingview/landingview";

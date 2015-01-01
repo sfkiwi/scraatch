@@ -1,0 +1,29 @@
+{
+  "name": "Scraatch",
+  "version": "0.0.1",
+  "description": "Scraatch.co website",
+  "main": "Gruntfile.js",
+  "scripts": {},
+  "contributors": [
+    {
+      "name": "Verdi Ergun",
+      "email": "vergun@gmail.com",
+      "twitter": "@vergun"
+    }
+  ],
+  "license": "",
+  "repository": {
+    "type": "git",
+    "url": "http://www.scraatch.co"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-autoprefixer": "~2.0.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-prettysass": "^0.2.3",
+    "grunt-sass": "~0.16.1",
+    "grunt-shell": "^0.7.0",
+    "protractor": "^0.22.0"
+  }
+}

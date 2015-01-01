@@ -1,0 +1,13 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+node_modules/
+server/lib/
+*.pyc
+manifest.MF
+client/js/app-third-party.min.js
+client/css/app.css.map
+client/css/app.css
+client/css/app.min.css
+client/js/app.min.js
+.DS_Store

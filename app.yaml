@@ -1,0 +1,27 @@
+application: fromscraatch2
+version: 1
+runtime: python27
+threadsafe: yes
+api_version: 1
+
+handlers:
+# Endpoints handler
+- url: /_ah/spi/.*
+  script: server.api_server.APP
+# Application handler
+- url: .*
+  script: server.main.APP
+
+libraries:
+- name: pycrypto
+  version: latest
+- name: ssl
+  version: latest
+- name: endpoints
+  version: 1.0
+- name: jinja2
+  version: 2.6
+- name: markupsafe
+  version: 0.15
+- name: webapp2
+  version: latest

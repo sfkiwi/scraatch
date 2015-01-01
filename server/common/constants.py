@@ -1,0 +1,5 @@
+API_DESCRIPTION = "NatureFight.com API"
+API_NAMESPACE = "api"
+API_VERSION = "v1"
+API_URL_DEV = "/_ah/api"
+API_URL_PRODUCTION = "https://nature-fight.appspot.com/_ah/api"
